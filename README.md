@@ -4,6 +4,8 @@ Course project for MST 0051 Machine Learning Operations at BI Norwegian Business
 
 A variational autoencoder (VAE) is trained on normal credit card transactions only. A transaction is flagged as fraud when its reconstruction error is unusually high. The model is then deployed, monitored and released in stages.
 
+**New here? Start with the [blog post](BLOG.md).** It explains the whole project in plain language.
+
 ## What is in this repository
 
 | Folder | Content |
