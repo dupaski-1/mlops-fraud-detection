@@ -1,0 +1,32 @@
+WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
+WARNING:tensorflow:Skipping full serialization of Keras layer <vae.VAE object at 0x701ac88c40>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <vae.VAE object at 0x701ac88c40>, because it is not built.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:From /opt/anaconda3/envs/mlops_student/lib/python3.10/site-packages/tensorflow/python/trackable/autotrackable.py:95: LinearOperator.graph_parents (from tensorflow.python.ops.linalg.linear_operator) is deprecated and will be removed in a future version.
+Instructions for updating:
+Do not call `graph_parents`.
+WARNING:tensorflow:From /opt/anaconda3/envs/mlops_student/lib/python3.10/site-packages/tensorflow/python/trackable/autotrackable.py:95: LinearOperator.graph_parents (from tensorflow.python.ops.linalg.linear_operator) is deprecated and will be removed in a future version.
+Instructions for updating:
+Do not call `graph_parents`.
+--- Started MLflow Run ID: 3c8be743969e419f824403882e78cd49 ---
+Epoch 10: ELBO -20.7031
+Epoch 20: ELBO -20.0996
+Epoch 30: ELBO -19.8384
+Epoch 40: ELBO -19.6877
+Epoch 50: ELBO -19.5865
+Epoch 60: ELBO -19.5124
+Epoch 70: ELBO -19.4547
+Epoch 80: ELBO -19.4082
+Epoch 90: ELBO -19.3694
+Epoch 100: ELBO -19.3363
+Total time: 0:02:53.451746 seconds
+Saved checkpoint for step 100: ../output/ckpts/ckpt-100
+Exporting model to SavedModel (.pb) format for KServe...
+Successfully logged run, .pb model artifact, and source code to centralized MLflow!
+
+---> COPY THIS RUN ID FOR EVALUATION: 3c8be743969e419f824403882e78cd49 <---
+🏃 View run nosy-ox-862 at: http://20.67.76.40/#/experiments/31/runs/3c8be743969e419f824403882e78cd49
+🧪 View experiment at: http://20.67.76.40/#/experiments/31
